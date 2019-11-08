@@ -33,7 +33,7 @@ function MovieList(props) {
         })
         .catch((error) => {
           console.log(error)
-          //put movie back if was unsuccesfull
+          //put movie back if it was unsuccessful
           setMovies([...movies, movie])
         })
     }

@@ -40,12 +40,14 @@ export default class Movie extends React.Component {
     }
 
     return (
+      <div>
       <div className="save-wrapper">
         <MovieCard movie={this.state.movie} />
         <div className="save-button" onClick={this.saveMovie}>
           Save
         </div>
         <Link to={`/update-movie/${this.state.movie.id}`}>Edit </Link>
+      </div>
       </div>
     );
   }

@@ -42,7 +42,7 @@ function MovieUpdate(props) {
     }
     return (
         <div>
-            <h1>Update Movies</h1>
+            <h1>Update Movie</h1>
             
             <form onSubmit={handleSubmit}>
                 <input 
